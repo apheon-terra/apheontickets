@@ -23,7 +23,7 @@
 //better
 // import { BadRequestError } from '@apheontickets/common'
 
-//for solution 2
+//for solution 2d
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
