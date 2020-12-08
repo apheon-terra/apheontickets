@@ -1,5 +1,5 @@
 {
-  "name": "@apheontickets/common",
+  "name": "@apheon-terra/apheontickets",
   "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && git remote add origin git@github.com:apheon-terra/apheontickets.git && git push -u-f origin master && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
